@@ -13,7 +13,7 @@ function Footer() {
                 </div>
 
                 <div className='mt-4 flex gap-[48px]'>
-                    <div className='flex flex-col gap-[24px]'>
+                    <div className='flex flex-col gap-[24px] w-[344px]'>
                         {headings.slice(0, 3).map((item, index) => (
                             <div className='flex flex-col gap-[8px]'>
                                 <div className='text-[14px] leading-[18.9px] text-[#6E6D6D]'>{item}</div>
@@ -23,13 +23,12 @@ function Footer() {
                     </div>
                     <div className='flex flex-col gap-[24px]'>
                         {headings.slice(3).map((item, index) => (
-                            <div className='flex flex-col gap-[8px]'>
+                            <div className='flex flex-col gap-[8px] w-[344px]'>
                                 <div className='text-[14px] leading-[18.9px] text-[#6E6D6D]'>{item}</div>
                                 <div className='text-[16px] text-[#3D3D3D] leading-[21.6px]'>{answers.slice(3)[index]}</div>
                             </div>
                         ))}
                     </div>
-                    <div></div>
                 </div>
             </div>
         </div>

@@ -19,7 +19,7 @@ function App() {
           <Info/>
           <Footer />
         </div>
-        <div className='border-[1px] border-[--border-grey] w-[409px]'>
+        <div className='border-[1px] border-[--border-grey] w-[409px] bg-[#FCFCFC]'>
           <JobPreview />
         </div>
       </div>
