@@ -2,17 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0px;
   padding: 0px;
   font-size: 20px;
   line-height: 27px;
   font-weight: 500;
+  font-family: 'General Sans', sans-serif;
+  font-weight: 500;
 }
 
-:root{
-  --primary : #DC4A2D;
-  --text-grey : #888888;
-  --border : #FCB4A5;
+:root {
+  --primary: #DC4A2D;
+  --text-grey: #888888;
+  --border: #FCB4A5;
   --border-grey: #E7E7E7;
+  font-family: 'General Sans', sans-serif;
+  font-family: 'Satoshi', sans-serif;
+}
+
+.satoshi{
+  font-family: 'Satoshi', sans-serif;
 }

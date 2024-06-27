@@ -10,7 +10,7 @@ function Navbar() {
     return (
         <div className='w-full h-[109px] p-[24px] pl-[40px]'>
             <div className='w-full h-full flex relative'>
-                <div className='font-bold bg-[--border-grey] w-[100px] h-[61px] flex items-center justify-center text-[--primary]'>Logo</div>
+                <div className='satoshi font-bold bg-[--border-grey] w-[100px] h-[61px] flex items-center justify-center text-[--primary]'>Logo</div>
                 <div className='text-[#B0B0B0] left-[555px] absolute pl-[8px] h-[74px] pr-[23px] flex items-center rounded-[36px] border-[#D1D1D1] border-[0.5px]'>
                     <div className='rounded-[49px] bg-[--primary] border-[--border] border-2 w-[109px] h-[58px] flex items-center justify-center gap-[8px]'>
                         <img src={jobs} alt="jobs"></img>
